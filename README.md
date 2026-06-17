@@ -35,14 +35,14 @@ Inicialmente el seguimiento se realizaba manualmente en Excel. La migración a P
 ### 1. Resumen
 Vista general del estado financiero mensual — ingresos, gastos, saldo y tasa de ahorro — con comparación contra el mes anterior y detección de movimientos sin categorizar.
 
-<img width="866" height="486" alt="image" src="https://github.com/user-attachments/assets/30b6f35d-14b6-4c46-ae9f-1dd7b7e5acac" />
+![Resumen](Resumen.png)
 
 
 ### 2. Gastos
 Análisis detallado del gasto mensual por categoría, control de gastos variables contra presupuesto ((Alimentación, Agua, Electricidad, Ocio, Ropa), evolución temporal del gasto total y comparación de gasto mensual contra objetivo.
 
 
-<img width="874" height="484" alt="image" src="https://github.com/user-attachments/assets/84122be7-bc60-4097-9d3a-ac8df30d5158" />
+![Gastos](Gastos.png)
 
 
 ### 3. Detalle
