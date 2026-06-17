@@ -48,7 +48,8 @@ Análisis detallado del gasto mensual por categoría, control de gastos variable
 ### 3. Detalle
 Exploración detallada de todos los movimientos del período, permitiendo auditar el gasto por categoría, mes y fecha, e identificar movimientos específicos.
 
-<img width="851" height="475" alt="image" src="https://github.com/user-attachments/assets/811e7f5d-6105-4351-81c3-d15de0cb8c23" />
+
+![Detalle](Detalle.png)
 
 
 ## 🧠 Aspectos técnicos destacados
