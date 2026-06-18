@@ -1,8 +1,8 @@
-### 💰 Dashboard de Finanzas Personales — Power BI
+### Dashboard de Finanzas Personales — Power BI
 
-> ⚠️ Los datos presentados en este proyecto son **ficticios** y fueron generados únicamente con fines demostrativos, preservando la estructura y lógica real del proyecto original.
+> Los datos presentados en este proyecto son **ficticios** y fueron generados únicamente con fines demostrativos, preservando la estructura y lógica real del proyecto original.
 
-#### 📋 Descripción
+#### Descripción
 
 Dashboard desarrollado en Power BI que permite monitorear y analizar los movimientos bancarios de dos cuentas de forma consolidada. Cubre el seguimiento mensual de ingresos, gastos y ahorro, el control de gastos variables contra un presupuesto definido, y la comparación del gasto total contra un objetivo mensual máximo.
 
@@ -10,7 +10,7 @@ Inicialmente el seguimiento se realizaba manualmente en Excel. La migración a P
 
 **Problema que resuelve:** proporciona visibilidad sobre hábitos de gasto, cumplimiento de presupuesto y capacidad de ahorro mediante un seguimiento financiero automatizado.
 
-#### 🛠️ Herramientas utilizadas
+#### Herramientas utilizadas
 
 **Power BI Desktop** — modelado de datos, DAX, visualización
 
@@ -40,7 +40,7 @@ Exploración detallada de todos los movimientos del período, permitiendo audita
 ![Detalle](Detalle.png)
 
 
-#### 🧠 Aspectos técnicos destacados
+#### Aspectos técnicos destacados
 
 Consolidación automática de archivos Excel mediante Power Query.
 
@@ -51,7 +51,7 @@ Prevención de duplicados mediante claves únicas.
 Comparativas temporales y métricas financieras desarrolladas en DAX.
 
 
-#### 📄 Documentación completa
+#### Documentación completa
 
 La documentación técnica detallada — modelo semántico, relaciones, medidas DAX, transformaciones de Power Query, decisiones de diseño y mejoras futuras — está disponible en [Informe_finanzas_personales.pdf](Informe_finanzas_personales.pdf).
 
