@@ -8,7 +8,7 @@ Dashboard desarrollado en Power BI que permite monitorear y analizar los movimie
 
 Inicialmente el seguimiento se realizaba manualmente en Excel. La migración a Power BI permitió automatizar la consolidación de archivos bancarios mensuales, aplicar categorización automática por palabras clave, y visualizar la información de forma interactiva.
 
-**Problema que resuelve:** la falta de visibilidad sobre los hábitos de gasto, sin un sistema de seguimiento es difícil saber en qué categorías se gasta más, si se cumple el presupuesto, o cuánto se ahorra realmente cada mes.
+**Problema que resuelve:** proporciona visibilidad sobre hábitos de gasto, cumplimiento de presupuesto y capacidad de ahorro mediante un seguimiento financiero automatizado.
 
 ## 🛠️ Herramientas utilizadas
 
@@ -17,18 +17,6 @@ Inicialmente el seguimiento se realizaba manualmente en Excel. La migración a P
 **Power Query (M)** — transformación y limpieza de datos
 
 **Excel** — fuente de datos origen
-
-## 🗂️ Estructura del proyecto
-
-```
-├── docs/
-│   └── Informe_Finanzas_Personales.pdf   # Documentación técnica completa
-├── screenshots/
-│   ├── resumen.png
-│   ├── gastos.png
-│   └── detalle.png
-└── README.md
-```
 
 ## 📊 Páginas del dashboard
 
@@ -54,23 +42,18 @@ Exploración detallada de todos los movimientos del período, permitiendo audita
 
 ## 🧠 Aspectos técnicos destacados
 
-- **Combinación automática de archivos** — Power Query lee y consolida automáticamente todos los Excel mensuales de una carpeta, sin intervención manual.
-- **Categorización automática por palabras clave** — lógica en Power Query (M) que asigna categoría a cada movimiento buscando coincidencias entre el concepto bancario y una tabla de palabras clave.
-- **Prevención de duplicados** — clave única por movimiento para evitar que archivos solapados generen registros repetidos al actualizar.
-- **Modelo semántico con tablas de planificación** — `Presupuesto` y `Objetivos` se relacionan con el modelo evitando relaciones muchos a muchos mediante tablas dimensión intermedias (`DimMes`, `DimCategoria`).
-- **Inteligencia de tiempo en DAX** — comparativas mes a mes (`DATEADD`) y promedios mensuales (`AVERAGEX`) sobre tabla de calendario oficial.
+Consolidación automática de archivos Excel mediante Power Query.
 
-## 📈 Algunos insights del análisis
+Categorización automática de movimientos por palabras clave.
 
-- Durante el período los gastos superaron el objetivo, principalmente en abril y mayo.
-- En promedio el % de ahorro mensual es de 38%, es decir, de los ingresos más de la tercera parte se destina a ahorro
-- En marzo, si bien el saldo es positivo como en el resto de los meses, es significativamente menor que los demás. En este mes, los Ingresos descendieron, pero los Gastos no acompañaron ese descenso
-- Abril fue el mes con mayor desvío en Alimentación, dado que el gasto superó el presupuesto en un 26%.
+Prevención de duplicados mediante claves únicas.
+
+Comparativas temporales y métricas financieras desarrolladas en DAX.
+
 
 ## 📄 Documentación completa
 
 La documentación técnica detallada — modelo semántico, relaciones, medidas DAX, transformaciones de Power Query, decisiones de diseño y mejoras futuras — está disponible en [`docs/Informe_Finanzas_Personales.pdf`](docs/Informe_Finanzas_Personales.pdf).
-
 
 ---
 
