@@ -53,7 +53,7 @@ Comparativas temporales y métricas financieras desarrolladas en DAX.
 
 #### 📄 Documentación completa
 
-La documentación técnica detallada — modelo semántico, relaciones, medidas DAX, transformaciones de Power Query, decisiones de diseño y mejoras futuras — está disponible en [`docs/Informe_Finanzas_Personales.pdf`](docs/Informe_Finanzas_Personales.pdf).
+La documentación técnica detallada — modelo semántico, relaciones, medidas DAX, transformaciones de Power Query, decisiones de diseño y mejoras futuras — está disponible en [Informe_finanzas_personales.pdf](Informe_finanzas_personales.pdf).
 
 ---
 
