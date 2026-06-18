@@ -57,5 +57,5 @@ La documentación técnica detallada — modelo semántico, relaciones, medidas 
 
 ---
 
-📧 ¿Preguntas sobre el proyecto? Contactame en [tu LinkedIn] o [tu email]
+📧 ¿Preguntas sobre el proyecto? Contactame en www.linkedin.com/in/mcelesteisaac o isaacmceleste@gmail.com
 
