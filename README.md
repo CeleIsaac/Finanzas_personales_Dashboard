@@ -42,13 +42,13 @@ Exploración detallada de todos los movimientos del período, permitiendo audita
 
 #### Aspectos técnicos destacados
 
-Consolidación automática de archivos Excel mediante Power Query.
+•  Consolidación automática de archivos Excel mediante Power Query.
 
-Categorización automática de movimientos por palabras clave.
+•  Categorización automática de movimientos por palabras clave.
 
-Prevención de duplicados mediante claves únicas.
+•  Control de duplicados mediante claves únicas.
 
-Comparativas temporales y métricas financieras desarrolladas en DAX.
+•  Comparativas mes a mes y métricas financieras desarrolladas en DAX.
 
 
 #### Documentación completa
