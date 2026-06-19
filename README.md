@@ -27,7 +27,7 @@ Vista general del estado financiero mensual — ingresos, gastos, saldo y tasa d
 
 
 #### 2. Gastos
-Análisis detallado del gasto mensual por categoría, control de gastos variables contra presupuesto ((Alimentación, Agua, Electricidad, Ocio, Ropa), evolución temporal del gasto total y comparación de gasto mensual contra objetivo.
+Análisis detallado del gasto mensual por categoría, control de gastos variables contra presupuesto (Alimentación, Agua, Electricidad, Ocio, Ropa), evolución temporal del gasto total y comparación de gasto mensual contra objetivo.
 
 
 ![Gastos](Gastos.png)
